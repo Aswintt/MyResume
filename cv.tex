@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,73 +116,67 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Aswin T} \\[7.5pt]
+\href{https://github.com/aswintt}{\raisebox{-0.05\height}\faGithub\ aswintt} \ $|$ \ 
+\href{https://linkedin.com/in/aswintt}{\raisebox{-0.05\height}\faLinkedin\ aswintt} \ $|$ \ 
+\href{https://aswintt.github.io/portfolio/}{\raisebox{-0.05\height}\faGlobe \ portfolio} \ $|$ \ 
+\href{mailto:aswintt4@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ aswintt4@gmail.com} \ $|$ \ 
+\href{tel:+918606920678}{\raisebox{-0.05\height}\faMobile \ +91 86069 20678} \\
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
-%----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
+\begin{itemize}
+    \item As a recent graduate with a Bachelor's degree in CSE, I am eager to kickstart my career in the IT industry. I possess a strong foundation in Python \& JavaScript  programming languages acquired through coursework and personal projects.
+    \item  My passion for problem-solving and my ability to quickly adapt to new technologies make me a valuable asset for any IT team. I am seeking an entry-level position where I can contribute my skills and continue to learn and grow in a dynamic IT environment.
+\end{itemize}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+2020 - 2023 & \textbf{MES College Of Engineering, Kuttipuram} \hfill \normalsize Kerala, India \\
+&Bachelor of Technology in Computer Science and Engineering \hfill (CGPA: 7.72/10) \\
+\\
+2016 - 2019 & \textbf{SSM Polytechnic College, Tirur} \hfill \normalsize Kerala, India \\
+& Diploma in Computer Engineering \hfill (CGPA: 7.26/10) \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+\section*{Projects}
+\begin{itemize}
+    \item \textbf{Decentralized web hosting}  \hfill \href{https://github.com/Aswintt/Dwebhosting}{View Source code}
+    \begin{itemize}
+        \item Technologies Used: Python, Solidity, NodeJS, ReactJS
+        \item A Decentralized web hosting software which helps to host files and web files to p2p network for storing and sharing data in a distributed file system using blockchain.
+    \end{itemize}
+     \item \textbf{Chatbot for KSRTC bus timings}  \hfill \href{https://github.com/Aswintt/KSRTC-bus-timings-chatbot}{View Source code}
+    \begin{itemize}
+        \item Technologies Used: MERN stack, Dialogflow
+        \item A chatbot that integrated with a demo KSRTC website that gives bus time and details to users.
+    \end{itemize}   
+    
+\end{itemize}
+
+%Online Courses
+\section{Online Courses}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{The Complete Data Structures and Algorithms Course in Python} $|$ Udemy & \hfill \href{https://www.udemy.com/certificate/UC-ab804445-d20b-4dd7-950b-41b0fa715490/}{View Certificate} \\
+\end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Technical Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Languages:} &  \normalsize{Python, C, HTML/CSS, JavaScript}\\
+\textbf{Frameworks:}  &  \normalsize{Django, Bootstrap, ReactJs}\\  
+\textbf{Developer Tools:} &  \normalsize{Git, VS Code}\\
+\textbf{Databases:}  &  \normalsize{ PostgreSQL, MySQL}\\  
 \end{tabularx}
 
 \vfill
